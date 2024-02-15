@@ -1,0 +1,167 @@
+{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.mdiv{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSGl7_VfHmmYUCs4HirvzSvw1kohVp72ywPw&usqp=CAU");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.container{
+	height: 400px;
+	width: 300px;
+	box-shadow: 0px 0px 30px grey;
+	border-radius: 30px;
+	padding: 20px;
+	/background: blanchedalmond;/
+	background-image: url("https://cdn.zeebiz.com/sites/default/files/2023/05/25/244075-delhi-weather-today-rain.jpg");
+	backdrop-filter: blur(20px);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.heading{
+	color: darkslateblue;
+	font-family: Arial Black;
+	font-size: 15px;
+	text-align: center;
+}
+input[type="text"]{
+	height: 30px;
+	width: 180px;
+	padding-left: 10px;
+	outline: none;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.srch_btn{
+	border: none;
+	background-color: white;
+	padding-top: 10px;
+	
+	cursor: pointer;
+}
+.component{
+	padding-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btn{
+	margin-top: 0px;
+	margin-left: 10px;
+}
+#city{
+	color: darkmagenta;
+	font-family: Arial Black;
+	font-size: 20px;
+}
+.measurement{
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.headings{
+	color: darkmagenta;
+	font-family: Arial Black;
+	font-size: 12px;
+	padding-top: 15px;
+}
+
+/image/
+.vibrate-1 {
+	-webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+}
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+/cityname/
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
